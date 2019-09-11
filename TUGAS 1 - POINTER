@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int p = 97;
+	  int q =141;
+	  int r=61;
+	  int	s = 1100001;
+    int *a;
+    a=&p;
+    cout<<*a<<" = ";
+    a=&q;
+    cout<<*a<<" = ";
+    a=&r;
+    cout<<*a<<" = ";
+    a=&s;
+    cout<<*a;
+
+    return 0;
+}
